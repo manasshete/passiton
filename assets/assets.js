@@ -146,7 +146,7 @@ export const productsDummyData = [
   {
     "_id": "67a1f4e43f34a77b6dde9144",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Apple AirPods Pro 2nd gen",
+    "name": "Denim Jeans Jacket",
     "description": "lorem episum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
     "timeleft": "1 Day",
     "offerPrice": 20.00,
@@ -160,7 +160,7 @@ export const productsDummyData = [
   {
     "_id": "67a1f52e3f34a77b6dde914a",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Bose QuietComfort 45",
+    "name": "CBSE 12th Class Maths",
     "description": "lorem episum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
     "timeleft" : "1 Day",
     "offerPrice": 329.99,
@@ -174,7 +174,7 @@ export const productsDummyData = [
   {
     "_id": "67a1f5663f34a77b6dde914c",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Samsung Galaxy S23",
+    "name": "Ktchen Knife Set",
     "description": "The Samsung Galaxy S23 offers an all-encompassing mobile experience with its advanced AMOLED display, offering vibrant visuals and smooth interactions. Equipped with top-of-the-line fitness tracking features and cutting-edge technology, this phone delivers outstanding performance. With powerful hardware, a sleek design, and long battery life, the S23 is perfect for those who demand the best in mobile innovation.",
     "timeleft" : "2 Days",
     "offerPrice": 199.99,
@@ -188,7 +188,7 @@ export const productsDummyData = [
   {
     "_id": "67a1f5993f34a77b6dde914e",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Garmin Venu 2",
+    "name": "Set Hankerchief",
     "description": "lorem episum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
     "timeeft": "3 Days",
     "offerPrice": 349.99,
@@ -202,10 +202,10 @@ export const productsDummyData = [
   {
     "_id": "67a1f5ef3f34a77b6dde9150",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "PlayStation 5",
+    "name": "Set of 5 Towels",
     "description": "lorem episum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
     "timeleft": "21 hrs",
-    "offerPrice": 49.99,
+    "offerPrice": 49.00,
     "image": [
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/dd3l13vfoartrgbvkkh5.webp"
     ],
@@ -216,7 +216,7 @@ export const productsDummyData = [
   {
     "_id": "67a1f70c3f34a77b6dde9156",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Canon EOS R5",
+    "name": "Gardening Tools Set",
     "description": "lorem episum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
     "timeleft": "1 Day",
     "offerPrice": 39.99,
@@ -230,10 +230,10 @@ export const productsDummyData = [
   {
     "_id": "67a1f7c93f34a77b6dde915a",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "MacBook Pro 16",
+    "name": "Hammer Drill",
     "description": "lorem episum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
     "timeleft": "5 days",
-    "offerPrice": 2499.99,
+    "offerPrice": 299.00,
     "image": [
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/rzri7kytphxalrm9rubd.webp"
     ],
@@ -244,7 +244,7 @@ export const productsDummyData = [
   {
     "_id": "67a1f8363f34a77b6dde915c",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Sony WF-1000XM5",
+    "name": "Lunch boxes",
     "description": "lorem episum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
     "timeleft": "2 Days",
     "offerPrice": 299.99,
@@ -258,7 +258,7 @@ export const productsDummyData = [
   {
     "_id": "67a1f85e3f34a77b6dde915e",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Samsung Projector 4k",
+    "name": "Footwear Shoes",
     "description": "lorem episum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
     "timeleft": "3 Days",
     "offerPrice": 99.00,
@@ -272,10 +272,10 @@ export const productsDummyData = [
   {
     "_id": "67a1fa4b3f34a77b6dde9166",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "ASUS ROG Zephyrus G16",
+    "name": "Lamps",
     "description": "lorem episum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
     "timeleft": "21 days",
-    "offerPrice": 1999.99,
+    "offerPrice": 199.99,
     "image": [
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/wig1urqgnkeyp4t2rtso.webp"
     ],
@@ -305,8 +305,8 @@ export const orderDummyData = [
         "product": {
           "_id": "67a1f4e43f34a77b6dde9144",
           "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-          "name": "Apple AirPods Pro",
-          "description": "Apple AirPods Pro (2nd Gen) with MagSafe Case (USB-C) provide excellent sound, active noise cancellation, and a comfortable fit. The USB-C case ensures quick charging, and they pair seamlessly with Apple devices for an effortless audio experience.",
+          "name": "Denim Jeans Jacket",
+          "description": "lorem episum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
           "price": 499.99,
           "offerPrice": 399.99,
           "image": [
@@ -315,7 +315,7 @@ export const orderDummyData = [
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667238/niw7tqxvjsxt7wcehxeo.png",
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667237/h8cq4x9cfzqzwaiarvpk.png"
           ],
-          "category": "Earphone",
+          "category": "Clothing",
           "date": 1738667236865,
           "__v": 0
         },
@@ -323,11 +323,11 @@ export const orderDummyData = [
         "_id": "67a20934b3db72db5cc77b2c"
       }
     ],
-    "amount": 406.99,
+    "amount": 199.00,
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
+      "fullName": "The DOMinator",
       "phoneNumber": "0123456789",
       "pincode": 654321,
       "area": "Main Road , 123 Street, G Block",
@@ -347,14 +347,14 @@ export const orderDummyData = [
         "product": {
           "_id": "67a1f52e3f34a77b6dde914a",
           "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-          "name": "Bose QuietComfort 45",
-          "description": "The Bose QuietComfort 45 headphones are engineered for exceptional sound quality and unparalleled noise cancellation. With a 24-hour battery life and comfortable, lightweight design, these headphones deliver premium audio for any environment. Whether on a flight, in the office, or at home, the Bose QC45 blocks out distractions, offering an immersive listening experience.",
+          "name": "CBSE 12th Class Maths",
+          "description": "The CBSE 12th Class Maths book is a comprehensive guide for students preparing for their board exams. It covers all essential topics, including calculus, algebra, and geometry, with detailed explanations and practice problems. This book is designed to help students build a strong foundation in mathematics and excel in their exams.",
           "price": 429.99,
           "offerPrice": 329.99,
           "image": [
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667311/m16coelz8ivkk9f0nwrz.png"
           ],
-          "category": "Headphone",
+          "category": "Books",
           "date": 1738667310300,
           "__v": 0
         },
@@ -362,11 +362,11 @@ export const orderDummyData = [
         "_id": "67a20949b3db72db5cc77b2f"
       }
     ],
-    "amount": 335.99,
+    "amount": 75.00,
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
+      "fullName": "The DOMinator",
       "phoneNumber": "0123456789",
       "pincode": 654321,
       "area": "Main Road , 123 Street, G Block",
@@ -386,8 +386,8 @@ export const orderDummyData = [
         "product": {
           "_id": "67a1f4e43f34a77b6dde9144",
           "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-          "name": "Apple AirPods Pro",
-          "description": "Apple AirPods Pro (2nd Gen) with MagSafe Case (USB-C) provide excellent sound, active noise cancellation, and a comfortable fit. The USB-C case ensures quick charging, and they pair seamlessly with Apple devices for an effortless audio experience.",
+          "name": "Ktchen Knife Set",
+          "description": "The Kitchen Knife Set is a versatile collection of high-quality knives designed for all your culinary needs. Each knife is crafted with precision and features ergonomic handles for comfort and control. This set includes a chef's knife, paring knife, serrated knife, and more, making it perfect for slicing, dicing, and chopping. Upgrade your kitchen with this essential knife set.",
           "price": 499.99,
           "offerPrice": 399.99,
           "image": [
@@ -404,11 +404,11 @@ export const orderDummyData = [
         "_id": "67a209bab3db72db5cc77b35"
       }
     ],
-    "amount": 406.99,
+    "amount": 99.00,
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
+      "fullName": "The DOMinator",
       "phoneNumber": "0123456789",
       "pincode": 654321,
       "area": "Main Road , 123 Street, G Block",
@@ -426,7 +426,7 @@ export const addressDummyData = [
   {
     "_id": "67a1e4233f34a77b6dde9055",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "fullName": "GreatStack",
+    "fullName": "The DOMinator",
     "phoneNumber": "0123456789",
     "pincode": 654321,
     "area": "Main Road , 123 Street, G Block",

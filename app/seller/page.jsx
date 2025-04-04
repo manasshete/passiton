@@ -75,10 +75,10 @@ const AddProduct = () => {
             required
           ></textarea>
         </div>
-        <div className="flex items-center gap-5 flex-wrap">
+        <div className="flex items-center gap-20 flex-wrap">
           <div className="flex flex-col gap-1 w-32">
             <label className="text-base font-medium" htmlFor="category">
-              Category
+              Condition
             </label>
             <select
               id="category"
@@ -86,18 +86,17 @@ const AddProduct = () => {
               onChange={(e) => setCategory(e.target.value)}
               defaultValue={category}
             >
-              <option value="Earphone">Earphone</option>
-              <option value="Headphone">Headphone</option>
-              <option value="Watch">Watch</option>
-              <option value="Smartphone">Smartphone</option>
-              <option value="Laptop">Laptop</option>
-              <option value="Camera">Camera</option>
-              <option value="Accessories">Accessories</option>
+              <option value="Average">Average</option>
+              <option value="Good">Good</option>
+              <option value="Really_Good">Really Good</option>
+              <option value="below_Average">below Average</option>
+              <option value="Bad"> Bad</option>
+            
             </select>
           </div>
           <div className="flex flex-col gap-1 w-32">
             <label className="text-base font-medium" htmlFor="product-price">
-              Product Price
+              Your Estimate Product Price
             </label>
             <input
               id="product-price"
@@ -108,21 +107,9 @@ const AddProduct = () => {
               value={price}
               required
             />
+            <p className="py-4 text-center text-xs md:text-sm">Will be approved by Admin</p>
           </div>
-          <div className="flex flex-col gap-1 w-32">
-            <label className="text-base font-medium" htmlFor="offer-price">
-              Offer Price
-            </label>
-            <input
-              id="offer-price"
-              type="number"
-              placeholder="0"
-              className="outline-none md:py-2.5 py-2 px-3 rounded border border-gray-500/40"
-              onChange={(e) => setOfferPrice(e.target.value)}
-              value={offerPrice}
-              required
-            />
-          </div>
+
         </div>
         <button type="submit" className="px-8 py-2.5 bg-orange-600 text-white font-medium rounded">
           ADD

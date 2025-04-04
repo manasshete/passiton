@@ -3,9 +3,11 @@ import React from "react";
 import HomeProducts from "@/components/HomeProducts";
 import Banner from "@/components/Banner";
 import NewsLetter from "@/components/NewsLetter";
+import ContactUs from "@/components/ContactUs";
 import FeaturedProduct from "@/components/FeaturedProduct";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+
 
 const Home = () => {
   return (
@@ -16,6 +18,7 @@ const Home = () => {
         <HomeProducts />
         <FeaturedProduct />
         <Banner />
+        <ContactUs />
         <NewsLetter />
       </div>
       <Footer />
