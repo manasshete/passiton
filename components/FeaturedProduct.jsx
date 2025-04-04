@@ -5,21 +5,22 @@ import Image from "next/image";
 const products = [
   {
     id: 1,
-    image: assets.girl_with_headphone_image,
-    title: "Unparalleled Sound",
-    description: "Experience crystal-clear audio with premium headphones.",
+    image: assets.Buying_cheap,
+    title: "Buy Products for Cheap",
+    description: "Good quality products at affordable prices.",
+    
   },
   {
     id: 2,
-    image: assets.girl_with_earphone_image,
-    title: "Stay Connected",
-    description: "Compact and stylish earphones for every occasion.",
+    image: assets.donate_image,
+    title: "Become a Seller and Donor",
+    description: "Make a difference by selling and donating.",
   },
   {
     id: 3,
-    image: assets.boy_with_laptop_image,
-    title: "Power in Every Pixel",
-    description: "Shop the latest laptops for work, gaming, and more.",
+    image: assets.ngo_image,
+    title: "Register as NGO",
+    description: "Find the best products for your needs.",
   },
 ];
 
@@ -27,7 +28,7 @@ const FeaturedProduct = () => {
   return (
     <div className="mt-14">
       <div className="flex flex-col items-center">
-        <p className="text-3xl font-medium">Featured Products</p>
+        <p className="text-3xl font-medium">Explore</p>
         <div className="w-28 h-0.5 bg-orange-600 mt-2"></div>
       </div>
 
@@ -37,7 +38,7 @@ const FeaturedProduct = () => {
             <Image
               src={image}
               alt={title}
-              className="group-hover:brightness-75 transition duration-300 w-full h-auto object-cover"
+              className="group-hover:brightness-75 transition duration-300 w-full h-full object-cover"
             />
             <div className="group-hover:-translate-y-4 transition duration-300 absolute bottom-8 left-8 text-white space-y-2">
               <p className="font-medium text-xl lg:text-2xl">{title}</p>
@@ -45,7 +46,7 @@ const FeaturedProduct = () => {
                 {description}
               </p>
               <button className="flex items-center gap-1.5 bg-orange-600 px-4 py-2 rounded">
-                Buy now <Image className="h-3 w-3" src={assets.redirect_icon} alt="Redirect Icon" />
+                Learn More <Image className="h-3 w-3" src={assets.redirect_icon} alt="Redirect Icon" />
               </button>
             </div>
           </div>

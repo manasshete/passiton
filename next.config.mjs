@@ -12,6 +12,34 @@ const nextConfig = {
                 hostname: 'raw.githubusercontent.com',
                 pathname: '**',
             },
+
+
+            {
+                protocol: 'https',
+                hostname: 'stores.maxfashion.in',
+                pathname: '**',
+            },  
+
+            {
+                protocol: 'https',
+                hostname: 'www.amazon.com',
+                pathname: '**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'images.unsplash.com',
+                pathname: '**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'img.freepik.com',
+                pathname: '**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'images.pexels.com',
+                pathname: '**',
+            },
         ],
     },
 };
